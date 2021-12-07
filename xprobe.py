@@ -77,7 +77,6 @@ def get_request(urls: str) -> str:
         rhttps = s.get(https)
         http_headers = rhttp.headers
         https_headers = rhttps.headers
-        print(http_headers)
         for value, key in http_headers.items():
             if value == "Content-Length":
                 content_length = key
