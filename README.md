@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 
 # USAGE
 ```bash
-usage: xprobe.py [-h] [-url URLS] [-sc | -p | -sr | -pb | -a]
+usage: xprobe.py [-h] [-url URLS] [-sc] [-p] [-sr] [-pb] [-a]
 
 options:
   -h, --help            show this help message and exit
