@@ -1,0 +1,3 @@
+coloroma 
+fake_useragent
+requests
