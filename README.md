@@ -17,6 +17,15 @@ pip3 install -r requirements.txt
 
 # USAGE
 
-./main.py
+usage: xprobe.py [-h] [-url URLS] [-sc | -p | -sr | -pb | -a]
 
-Config: To change domain / ip just type config and it will prompt you to enter the domain / ip you want to use
+options:
+  -h, --help            show this help message and exit
+  -url URLS, --urls URLS
+                        Domains to probe
+  -sc, --statuscode     HTTP Status Codes
+  -p, --preferhttps     Display https only domains
+  -sr, --servers        Identify WAF
+  -pb, --probe          Probe Domains
+  -a, --all             Use all arguments
+
