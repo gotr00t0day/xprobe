@@ -29,3 +29,26 @@ options:
   -pb, --probe          Probe Domains
   -a, --all             Use all arguments
 ```
+
+ # EXAMPLE
+ 
+ probe domains
+ ```
+ python3 xprobe.py --urls subdomains.txt --probe
+ ```
+ check status codes
+ ```
+ python3 xprobe.py --urls subdomains.txt --statuscode
+ ```
+ display https only domains
+ ```
+ python3 xprobe.py --urls subdomains.txt --preferhttps
+ ```
+ identify the server
+ ```
+ python3 xprobe.py --urls subdomains.txt --servers
+ ````
+  use all the arguments
+ ```
+ python3 xprobe.py --urls subdomains.txt --all
+ ````
