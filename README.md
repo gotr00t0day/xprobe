@@ -16,7 +16,7 @@ pip3 install -r requirements.txt
 
 
 # USAGE
-
+```bash
 usage: xprobe.py [-h] [-url URLS] [-sc | -p | -sr | -pb | -a]
 
 options:
@@ -28,4 +28,4 @@ options:
   -sr, --servers        Identify WAF
   -pb, --probe          Probe Domains
   -a, --all             Use all arguments
-
+```
